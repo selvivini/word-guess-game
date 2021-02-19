@@ -1,29 +1,17 @@
-# 🏗️ Build Word-Guessing Game
+# Word-guess-game
 
-Work with a partner to implement the following user story:
+## technologies used
+* Javascript
+* es6 classes
+* nodejs
+* chalk js
+* inquirer
 
-* As a user, I want to be able to play a word-guessing game from the command line.
+## Built 
+built this command line game using nodejs. The game starts when u start running node index.js file
+The game starts with a string of letters of movie name with some blanks for the player to guess a letter. If the letter guessed matches with letter then player gets a chance to proceed with the game, the player is left with 10 guesses. For every correct guess the message correct and for every wrong answer wrong message appears. The game finishes once the player has guessed the movie name right and he wins th game if he dont gues it right, he loses
 
-## Acceptance Criteria
-
-* It's done when the `Letter` and `Word` classes fulfill the tests in the `tests` folder.
-
-* It's done when the user can run the command `npm start` to play the game.
-
----
-
-## 💡 Hints
-
-How do the tests suggest how each method and class should be written?
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
-
-* What does the `chalk` npm package do?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+# Mockup
+![img-1](Develop/Assets/img-1.PNG)
+![img-2](Develop/Assets/img-2.PNG)
+![img-3](Develop/Assets/img-3.PNG)
